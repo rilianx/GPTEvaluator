@@ -105,7 +105,7 @@ def extract_feedback(text):
       feedback = text[:indice]
   return feedback
 
-def get_gpt_answers(dataset, template):
+def get_gpt_answers(api, dataset, template):
     ids = []; texts=[]
     for i, row in dataset.iterrows():
         # Extracting data from the dataset row
@@ -113,7 +113,7 @@ def get_gpt_answers(dataset, template):
         texts.append(text)
         ids.append((row['fullname'],row['id_control'],row['id_pregunta']))
 
-    gpt_answers = chat_gpt_multiple(texts)
+    gpt_answers = chat_gpt_multiple(api, texts)
 
     return ids, gpt_answers
 
