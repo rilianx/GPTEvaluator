@@ -1,0 +1,17 @@
+Pregunta: {Pregunta}
+Respuesta entregada por el estudiante: {RespuestaA}
+Evaluación basada en:
+   - Claridad: Coherencia, orden y lenguaje adecuado en la respuesta.
+   - Relevancia en relación al tema de la pregunta
+   - Correctitud de la respuesta
+
+(1) Compara y analiza la respuesta del estudiante con la respuesta correcta en función de los criterios.
+
+(2) Califica cada criterio con un valor entre 1 (deficiente) y 10 (excelente).
+
+(3) Coloca los puntajes en formato de tupla: (claridad, correctitud, relevancia)
+
+Ejemplo de respuesta correcta:
+{RespuestaC}
+
+(1)
