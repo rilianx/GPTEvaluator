@@ -142,4 +142,4 @@ def write_evaluations(dataset, ids, gpt_answers):
         #print(ans[0])
         if ans[0][0] is not None:
            dataset.loc[mask, 'EvalGPT'] = tuple2score(ans[0][0])
-          dataset.loc[mask, 'Feedback'] = ans[0][1]
+           dataset.loc[mask, 'Feedback'] = ans[0][1]
