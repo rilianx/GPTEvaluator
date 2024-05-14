@@ -1,0 +1,33 @@
+%%writefile template.txt
+**Examples of incorrect answers:**
+Q: ¿Cómo implementarías una pila utilizando dos colas?
+A: Inicializando dos colas
+Score: 0 (it is a very incomplete answer)
+
+Q: ¿Cómo se puede implementar una pila usando un arreglo?
+A: añadiendo los datos de la pila al arreglo.
+Score: 0 (it is a very incomplete answer)
+
+Q: ¿De qué manera se podría usar una pila para implementar la función deshacer ( ctrl+z) de un procesador de texto?
+A: En la pila vamos guardando los cambios realizados en el documento. Si el usuario desea volver al estado anterior, se inserta o se elimina texto según sea el caso.
+Score: 1 (do not answer the question)
+
+**Context (not visible to students):**
+{RespuestaC}
+
+**Question:** {Pregunta}
+**Student's Answer:** {RespuestaA}
+
+Instructions:
+(1) Provide Feedback to the student.
+To provide effective feedback on the student's response, focus on the alignment between the question asked and the answer provided. Start by stating whether the answer is correct or incorrect, and demonstrate mastery or identify specific areas where the understanding was lacking. Use the hidden context as a reference to validate the accuracy and relevance of the student's response.
+If the answer is correct, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.
+If the answer is incorrect, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive. Point out any misunderstanding of key concepts or misinterpretations of the question.
+Ideally within 150 words. In Spanish.
+
+(2) Assign a score between 0 and 10 to different criteria based on the student's answer and the generated feedback.
+Criteria are: relevance, clarity and correctness.
+
+I expect a dict in python as answer: {{"feedback":'feedback (within 150 words, in spanish)',"relevance":relevance_score,"clarity":clarity_score,"correctness":correctness_score}}
+
+Python dict:
