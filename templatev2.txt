@@ -1,16 +1,21 @@
-%%writefile template.txt
-**Examples of incorrect answers:**
-Q: ¿Cómo implementarías una pila utilizando dos colas?
-A: Inicializando dos colas
-Score: 0 (it is a very incomplete answer)
+**Examples:**
+Q: ¿Cómo se elimina un nodo en una lista enlazada simple?
+A: Para eliminar un nodo, asignamos el valor del nodo a NULL.
+Score: 5 (the answer is very incomplete)
 
-Q: ¿Cómo se puede implementar una pila usando un arreglo?
-A: añadiendo los datos de la pila al arreglo.
-Score: 0 (it is a very incomplete answer)
+Q: ¿Qué es un puntero en C y cómo se relaciona con las estructuras de datos?
+A: Un puntero en C es el bloque de memoria donde se almacena una determinada variable. 
+Score: 10 (the answer is not precise nor correct)
 
-Q: ¿De qué manera se podría usar una pila para implementar la función deshacer ( ctrl+z) de un procesador de texto?
-A: En la pila vamos guardando los cambios realizados en el documento. Si el usuario desea volver al estado anterior, se inserta o se elimina texto según sea el caso.
-Score: 1 (do not answer the question)
+Q: ¿Qué función en C permite asignar memoria para un número específico de elementos, inicializándola a cero?
+A: La función calloc es la función que se usa para asignar memoria de manera especifica a un determinado numero de elementos, para eso se usa for para iterarla
+Score: 45 (it is correct that is calloc, however it is not required to iterate with for)
+
+Q: En términos de tiempo, ¿cuál es la operación más costosa en una lista enlazada simple y en un arreglo?
+A: La operación más costosa en una lista enlazada simple es el acceso aleatorio, ya que hay que recorrer toda la lista hasta encontrar ese dato, 
+haciendo que el tiempo sea proporcional al largo de la lista. La operación más costosa en un arreglo insertar o eliminar un dato, ya que es 
+necesario mover todos los ítems a la derecha o a la izquierda, ya que hay que hacerlo uno por uno, siendo esto muy poco eficiente.
+Score: 90 (the answer is correct)
 
 **Context (not visible to students):**
 {RespuestaC}
@@ -20,14 +25,16 @@ Score: 1 (do not answer the question)
 
 Instructions:
 (1) Provide Feedback to the student.
-To provide effective feedback on the student's response, focus on the alignment between the question asked and the answer provided. Start by stating whether the answer is correct or incorrect, and demonstrate mastery or identify specific areas where the understanding was lacking. Use the hidden context as a reference to validate the accuracy and relevance of the student's response.
+To provide effective feedback on the student's response, focus on the alignment between the question asked and the answer provided. 
+Start by stating whether the answer is correct or incorrect, and demonstrate mastery or identify specific areas where the understanding was lacking. 
+Use the hidden context as a reference to validate the accuracy and relevance of the student's response.
 If the answer is correct, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.
 If the answer is incorrect, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive. Point out any misunderstanding of key concepts or misinterpretations of the question.
 Ideally within 150 words. In Spanish.
 
-(2) Assign a score between 0 and 10 to different criteria based on the student's answer and the generated feedback.
-Criteria are: relevance, clarity and correctness.
+(2) Assign a score between 0 and 100 to different criteria based on the student's answer and the generated feedback.
+Criteria are: clarity and correctness.
 
-I expect a dict in python as answer: {{"feedback":'feedback (within 150 words, in spanish)',"relevance":relevance_score,"clarity":clarity_score,"correctness":correctness_score}}
+I expect a dict in python as answer: {{'feedback':'feedback (within 150 words, in spanish)','clarity_score':clarity_score, 'correctness_score':correctness_score}}
 
 Python dict:
