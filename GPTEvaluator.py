@@ -30,12 +30,13 @@ def load_student_answers(file_paths):
       df = pd.read_excel(file_path)
       question_columns = [col for col in df.columns if "Pregunta" in col or "Respuesta" in col]
       questions = [col for col in question_columns if "Pregunta" in col]
-      answers = [col for col in question_columns if "Respuesta" in col]
+      answers = [col for col in question_columns if "Respuesta" in col and "correcta" not in col]
+      correct_answers = [col for col in question_columns if "Respuesta correcta" in col]
       # Melt the dataframe
 
-      for q, a in zip(questions, answers):
-          temp_df = df[['Nombre', 'Apellido(s)', 'Dirección de correo', q, a]].copy()
-          temp_df.columns = ['Nombre', 'Apellido(s)', 'Dirección de correo', 'Pregunta', 'Respuesta Estudiante']
+      for q, a, ca in zip(questions, answers, correct_answers):
+          temp_df = df[['Nombre', 'Apellido(s)', 'Dirección de correo', q, a, ca]].copy()
+          temp_df.columns = ['Nombre', 'Apellido(s)', 'Dirección de correo', 'Pregunta', 'Respuesta Estudiante', 'Respuesta Correcta']
           temp_df['id_pregunta'] = int(q.split(" ")[1])
           # Add id_control column
           temp_df['id_control'] = id_control
@@ -43,10 +44,10 @@ def load_student_answers(file_paths):
 
     df_melted = pd.concat(df_melted, axis=0, ignore_index=True)
 
-    df_melted['fullname'] = df_melted.apply(lambda row: row['Nombre'] + ' ' + row['Apellido(s)'], axis=1)
+    #df_melted['fullname'] = df_melted.apply(lambda row: row['Nombre'] + ' ' + row['Apellido(s)'], axis=1)
 
     # Rearrange columns
-    df_melted = df_melted[['fullname', 'Dirección de correo', 'id_control', 'id_pregunta', 'Pregunta', 'Respuesta Estudiante']]
+    df_melted = df_melted[['Nombre', 'Apellido(s)', 'Dirección de correo', 'id_control', 'id_pregunta', 'Pregunta', 'Respuesta Estudiante', 'Respuesta Correcta']]
 
     return df_melted
 
