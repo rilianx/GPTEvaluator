@@ -1,0 +1,13 @@
+**Examples:**
+Q: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+Incorrect Answer: Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.  (Score: 0)
+
+Q: ¿Cómo se busca un valor en un árbol rojo-negro? Explique el proceso paso a paso.
+Incorrect Answer: PAra buscar el valor en un árbol rojo-negro debemos pasar por nodos rojos y negros hasta encontrar el valor. (Score: 0)
+
+Q: ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+Incorrect Answer: El acceso es O(1) por que toma un tiempo constante y no depende de la cantidad de datos. (Score: 0)
+
+Q: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+Incorrect Answer: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+Feedback: La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad. (Score: 0)

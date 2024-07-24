@@ -1,0 +1,9 @@
+**Examples:**
+Q: ¿Qué es el factor de balanceo en árboles AVL? y ¿para qué sirve?
+Correct Answer: El factor de balanceo es la resta entre las alturas del sub arbol izquierdo con el derecho, esta como maximo puede ser 1 y mínimo -1 , sirve para mantener acotada la altura del arbol (Score: 10)
+
+Q: ¿Por qué la búsqueda en un arreglo tiene complejidad O(n)? Explique las razones de esta complejidad.
+Correct Answer: La búsqueda de un arreglo tiene complejidad O(n) debido a que en el peor de los casos, se deberá recorrer todo el arreglo para encontrar el o los elementos buscados. (Score: 10)
+
+Q: Explique en palabras un algoritmo que use una lista para determinar si una palabra es un palíndromo (ejemplo: oso, radar, sometemos)
+Correct Answer: se ingresa la lista con la palabra que desea verificar si es palíndromo luego , se recorre de inicio a fin y simultáneamente de fin a inicio comparando cada letra si coinciden en todos los casos va a ser palíndromo. (Score: 10)

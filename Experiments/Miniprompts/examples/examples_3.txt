@@ -1,0 +1,17 @@
+**Examples:**
+Q: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Insatisfactory Answer**: Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.
+(Score: 0)
+
+Q: ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Insatisfactory Answer**: El acceso es O(1) por que toma un tiempo constante y no depende de la cantidad de datos.
+(Score: 0)
+
+Q: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Insatisfactory Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+Feedback: La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad.
+(Score: 0)
+
+Q: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Excelent Answer**: La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+(Score: 10)

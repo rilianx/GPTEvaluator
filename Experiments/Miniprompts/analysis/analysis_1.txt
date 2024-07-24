@@ -1,0 +1,8 @@
+#La respuesta del estudiante dice que...
+(analysis)
+Analyse the "Student's Answer".
+Start by paraphrasing the answer in detail and commenting each sentence.
+It rewrites the same information provided in the question? or It correctly answers the question providing relevant and deep new information?
+It is complete, that is, answers all the questions?
+Use the hidden context as a reference to validate the accuracy and relevance of the student's response.
+Focus on the alignment between the question asked and the answer provided.
