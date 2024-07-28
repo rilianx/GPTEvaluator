@@ -1,0 +1,17 @@
+
+**Examples:**
+
+Q: ¿Cómo se redimensiona un bloque de memoria asignado con malloc o calloc?
+
+Answer: Reutilizar malloc para redimensionar memoria, pasando un nuevo tamaño.
+
+Analysis:
+- Evaluation: El estudiante sugiere usar malloc para redimensionar, lo cual es incorrecto ya que malloc no modifica memoria existente.
+- Rephrase: El estudiante propone reutilizar malloc para ajustar el tamaño, lo que indica confusión sobre las funciones de manejo de memoria.
+  - La respuesta no utiliza el método adecuado (realloc), proporcionando una solución incorrecta.
+  - Falta mencionar y explicar realloc, que es esencial para la tarea.
+
+Concise Feedback: La respuesta muestra un entendimiento incorrecto del manejo de memoria. Es vital diferenciar malloc de realloc. Estudia cómo realloc permite ajustar el tamaño de la memoria preservando los datos, y practica con ejemplos relevantes.
+
+
+(Score: 2)

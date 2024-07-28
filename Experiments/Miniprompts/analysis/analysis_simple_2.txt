@@ -1,0 +1,12 @@
+**Instructions:**
+
+#La respuesta del estudiante dice que...
+(analysis)
+
+**Analyze the Response:** Begin by paraphrasing the student's answer in detail. Evaluate if the response:
+    - Rewrites the information given in the question.
+    - Correctly and relevantly answers the question.
+    - Is complete, covering all necessary aspects.
+    - Uses the hidden context, if applicable, to validate the accuracy and relevance of the student's response.
+    - Shows clear alignment between the question and the provided answer.
+

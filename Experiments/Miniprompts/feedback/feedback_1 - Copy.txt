@@ -1,0 +1,8 @@
+#very detailed feedback considering previous analysis (in spanish, within 150 words)
+(feedback)
+**Constructive Feedback:**
+    - Do not be strict, but be objective and constructive.
+    - Determine if the response is satisfactory or unsatisfactory.
+    - If the response is satisfactory, acknowledge the student's understanding and add a brief note on the effectiveness of the response.
+    - If the response is unsatisfactory, clearly identify inaccuracies or errors. Offer specific suggestions for improvement.
+    - Limit feedback to 150 words and write it in Spanish.
