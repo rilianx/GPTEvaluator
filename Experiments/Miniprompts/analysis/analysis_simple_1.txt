@@ -3,4 +3,4 @@
 **Analyze the Student's Answer:** Start by paraphrasing the student’s response in detail and comment on each statement.
 **Rewriting the Information:** Rephrase the information provided in the question to assess whether it is correctly addressed by the student's answer. Check if the response includes new and relevant information.
 **Completeness:** Determine if the response is complete, meaning it answers all parts of the question.
-**Context Validation:** Use the hidden context as a reference to validate the accuracy and relevance of the student’s answer. Focus on how well the response aligns with the question asked.
+**Context Validation:** Use the Knowledge as a reference to validate the accuracy and relevance of the student’s answer. Focus on how well the response aligns with the question asked.
