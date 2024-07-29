@@ -1,6 +1,6 @@
 ## Example
 
-**Context (not visible to students):**
+**Knowledge:**
 Insertar un nodo entre dos existentes en una lista doblemente enlazada implica ajustar cuatro punteros: dos desde el nuevo nodo hacia los nodos adyacentes y viceversa, manteniendo la coherencia de la navegación bidireccional.
 
 **Question:**
@@ -14,6 +14,6 @@ Se crea una variable para el nuevo nodo y se conectan los punteros "next" y "pre
 - Aborda directamente el procedimiento de inserción en listas doblemente enlazadas, mostrando comprensión de su estructura.
 - La respuesta cubre adecuadamente los pasos necesarios para la inserción, aunque podría beneficiarse de más detalles sobre cómo se manejan los punteros en casos especiales como inserciones al principio o al final de la lista.
 
-**Concise Feedback:**
+**Feedback:**
 Has explicado bien el proceso básico de inserción en listas doblemente enlazadas. Para mejorar, sería útil incluir detalles sobre el manejo de punteros en los extremos de la lista, ya que estos casos pueden presentar desafíos únicos en la actualización de punteros.
 
