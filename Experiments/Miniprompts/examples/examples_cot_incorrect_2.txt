@@ -14,8 +14,8 @@ Analysis:
 Concise Feedback: La respuesta muestra un entendimiento incorrecto del manejo de memoria. Es vital diferenciar malloc de realloc. Estudia cómo realloc permite ajustar el tamaño de la memoria preservando los datos, y practica con ejemplos relevantes.
 
 {
-	"análisis": "Incorrecto al sugerir `malloc` para redimensionar, cuando debería ser `realloc`.",
-	"retroalimentación": "Importante revisar las funciones de memoria en C, enfocándose en `realloc` para ajustar tamaños de memoria existente.",
+	"analysis": "Incorrecto al sugerir `malloc` para redimensionar, cuando debería ser `realloc`.",
+	"feedback": "Importante revisar las funciones de memoria en C, enfocándose en `realloc` para ajustar tamaños de memoria existente.",
 	...
 }
 
