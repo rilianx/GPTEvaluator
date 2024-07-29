@@ -1,27 +1,20 @@
 {
     "model": "gpt-4o-mini",
     "temperature": 0.2,
-    "expected_output": ["feedback"],
-    "criteria": ['correctness', 'relevance', 'clarity'],
-    "criteria_weights": [0.4,0.4,0.2],
+    "expected_output": [
+        "feedback"
+    ],
+    "criteria": [
+        "correctness",
+        "relevance",
+        "clarity"
+    ],
+    "criteria_weights": [
+        0.4,
+        0.4,
+        0.2
+    ],
     "significant_digits": 1,
     "adjust_score_function": "0 if gpt_score <= 2 else 10 if gpt_score >= 8 else (gpt_score - 2) / (8 - 2) * 10",
-    #"adjust_score_function": "gpt_score", # sin ajuste
-    "prompt_template": """
-**Knowledge (not visible to students):** {knowledge}
-
----
-
-**Question:** {question}
-**Student's Answer:** {answer}
-
-Instructions:
-(feedback)
-Provide Feedback to the "Student's Answer" taking into account the hidden Knowledge and evaluation criteria.
-It is enough that the student answer correctly and more or less completely the question. **Do not ask for additional information**.
-Start by stating whether the answer is good/excelent or poor/insatisfactory.
-If the answer is good/excelent, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.
-If the answer is poor/insatisfactory, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive.
-Within 150 words. In Spanish.
-    """
+    "prompt_template": "\n**Knowledge (not visible to students):** {knowledge}\n\n---\n\n**Question:** {question}\n**Student's Answer:** {answer}\n\nInstructions:\n(feedback)\nProvide Feedback to the \"Student's Answer\" taking into account the hidden Knowledge and evaluation criteria.\nIt is enough that the student answer correctly and more or less completely the question. **Do not ask for additional information**.\nStart by stating whether the answer is good/excelent or poor/insatisfactory.\nIf the answer is good/excelent, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.\nIf the answer is poor/insatisfactory, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive.\nWithin 150 words. In Spanish.\n    "
 }
