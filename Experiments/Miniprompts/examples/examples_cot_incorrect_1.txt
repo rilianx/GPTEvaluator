@@ -15,8 +15,8 @@ Analysis:
 Concise Feedback: La respuesta del estudiante es insatisfactoria y muestra una comprensión incorrecta de cómo se maneja la redimensión de memoria en C. Sería beneficioso revisar las diferencias entre malloc, calloc, y realloc, enfocándose especialmente en cómo realloc puede cambiar el tamaño de un bloque de memoria ya asignado sin perder los datos. Recomiendo estudiar ejemplos específicos de cómo y cuándo usar cada una de estas funciones para consolidar su comprensión.
 
 {
-	"análisis": "La respuesta del estudiante propone usar malloc para redimensionar memoria, lo cual es incorrecto. Malloc asigna nueva memoria y no ajusta el tamaño del bloque ya asignado.",
-	"retroalimentación": "Es crucial entender las diferencias entre malloc y realloc. Recomiendo revisar la documentación y ejemplos prácticos que ilustren su uso adecuado, especialmente cómo realloc permite ajustar el tamaño de la memoria preservando los datos existentes.",
+	"analysis": "La respuesta del estudiante propone usar malloc para redimensionar memoria, lo cual es incorrecto. Malloc asigna nueva memoria y no ajusta el tamaño del bloque ya asignado.",
+	"feedback": "Es crucial entender las diferencias entre malloc y realloc. Recomiendo revisar la documentación y ejemplos prácticos que ilustren su uso adecuado, especialmente cómo realloc permite ajustar el tamaño de la memoria preservando los datos existentes.",
 	...
 }
 
