@@ -1,1 +1,1 @@
-**Context (not visible to students):** {Context}
+**Knowledge:** {Context}
