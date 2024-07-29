@@ -16,16 +16,5 @@
     ],
     "significant_digits": 1,
     "adjust_score_function": "0 if gpt_score <= 2 else 10 if gpt_score >= 8 else (gpt_score - 2) / (8 - 2) * 10",
-    "prompt_template": "\n\
-**Knowledge (not visible to students):** {knowledge}\n\n---\n\n\
-**Question:** {question}\n\
-**Student's Answer:** {answer}\n\n\
-Instructions:\n\
-(feedback)\n\
-Provide Feedback to the \"Student's Answer\" taking into account the hidden Knowledge and evaluation criteria.\n\
-It is enough that the student answer correctly and more or less completely the question. **Do not ask for additional information**.\n\
-Start by stating whether the answer is good/excelent or poor/insatisfactory.\n\
-If the answer is good/excelent, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.\n\
-If the answer is poor/insatisfactory, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive.\n\
-Within 150 words. In Spanish.\n"
+    "prompt_template": "\n**Knowledge (not visible to students):** {knowledge}\n\n---\n\n**Question:** {question}\n**Student's Answer:** {answer}\n\nInstructions:\n(feedback)\nProvide Feedback to the \"Student's Answer\" taking into account the hidden Knowledge and evaluation criteria.\nIt is enough that the student answer correctly and more or less completely the question. **Do not ask for additional information**.\nStart by stating whether the answer is good/excelent or poor/insatisfactory.\nIf the answer is good/excelent, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.\nIf the answer is poor/insatisfactory, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive.\nWithin 150 words. In Spanish.\n"
 }
