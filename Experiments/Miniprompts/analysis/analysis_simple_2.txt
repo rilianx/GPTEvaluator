@@ -1,6 +1,5 @@
-#analysis
+#La respuesta del estudiante dice que...
 (analysis)
-
 **Analyze the Response:** Begin by paraphrasing the student's answer in detail. Evaluate if the response:
     - Rewrites the information given in the question.
     - Correctly and relevantly answers the question.
