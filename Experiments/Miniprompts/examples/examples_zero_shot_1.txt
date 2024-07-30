@@ -1,4 +1,0 @@
-## Example
-**Q:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
-**Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
-(Score: 10)

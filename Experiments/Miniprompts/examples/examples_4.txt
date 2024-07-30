@@ -1,0 +1,31 @@
+## Examples
+
+```
+
+**Knowledge:**Insertar un nodo entre dos existentes en una lista doblemente enlazada implica ajustar cuatro punteros: dos desde el nuevo nodo hacia los nodos adyacentes y viceversa, manteniendo la coherencia de la navegación bidireccional.
+**Question:** ¿Cómo insertarías un nodo entre dos nodos existentes en una lista doblemente enlazada?
+**Student's Answer:** Se crea una variable para el nuevo nodo y se conectan los punteros "next" y "prev" para integrarlo entre los nodos existentes, asegurando que todos los nodos permanezcan conectados correctamente.
+**Feedback and Score (in a Python dictionary):**
+{
+    "analysis": "La respuesta del estudiante demuestra una comprensión sólida de la estructura básica de una lista doblemente enlazada y el proceso de inserción. Menciona correctamente la creación de una variable para el nuevo nodo y la necesidad de conectar los punteros 'next' y 'prev'. La respuesta refleja el concepto clave de mantener la coherencia de la lista durante la inserción. Aunque no detalla el proceso paso a paso, la respuesta captura la esencia de la operación de inserción en una lista doblemente enlazada.",
+    "feedback": "Tu respuesta es acertada y muestra una buena comprensión de las listas doblemente enlazadas. Has identificado correctamente los pasos clave: crear el nuevo nodo y ajustar los punteros para mantener la estructura de la lista. Para mejorar aún más, podrías detallar el orden específico en que se ajustan los punteros y mencionar que son cuatro en total los que necesitan ser modificados. Buen trabajo en general.",
+    ...
+    "score": 10
+}
+
+---
+
+**Knowledge:** Para redimensionar un bloque de memoria que ha sido previamente asignado con malloc o calloc, se utiliza la función realloc en C. Esta función permite ajustar el tamaño de un bloque de memoria ya asignado sin perder el contenido existente que cabe dentro del nuevo tamaño. Malloc y calloc asignan nueva memoria y no pueden ser utilizados para redimensionar el bloque de memoria previamente asignado.
+**Question:** ¿Cómo se redimensiona un bloque de memoria previamente asignado con malloc o calloc?
+**Student's Answer:** Una posible opción sería volver a llamar a la función malloc sobre el mismo bloque de memoria, pasándole como parámetro el nuevo tamaño del objeto.
+**Feedback and Score (in a Python dictionary):**
+
+{
+    "analysis": "La respuesta del estudiante muestra una comprensión parcial del concepto de redimensionamiento de memoria en C. Identifica correctamente la necesidad de especificar un nuevo tamaño, lo cual es un aspecto importante del proceso. Sin embargo, propone usar malloc para esta tarea, lo cual no es la función adecuada para redimensionar memoria ya asignada.",
+    "feedback": "Tu respuesta muestra que comprendes la necesidad de ajustar el tamaño de la memoria, lo cual es un buen punto de partida. Sin embargo, es importante notar que malloc no se usa para redimensionar memoria existente. Para esta tarea específica, C proporciona la función realloc. Te sugiero revisar la documentación de realloc y cómo se diferencia de malloc. Practica utilizando realloc para redimensionar arrays dinámicos, lo cual te ayudará a consolidar estos conceptos importantes de gestión de memoria.",
+    ...
+    "score": 1
+}
+
+```
+---

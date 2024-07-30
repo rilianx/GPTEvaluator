@@ -1,0 +1,38 @@
+## Examples
+
+```
+**Q:** ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Answer:** Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.
+**Rephrase for clarity:** La respuesta del estudiante sugiere usar dos pilas para implementar el historial de navegación, pero no proporciona detalles sobre cómo funcionaría el algoritmo.
+**Knowledge:** La respuesta es extremadamente básica y no aborda la implementación del algoritmo ni cómo se utilizarían las dos pilas para navegar hacia adelante y hacia atrás.
+**Evaluate accuracy and relevance:** La respuesta es relevante pero altamente insuficiente. No explica cómo se implementaría el algoritmo ni cómo se manejarían las operaciones de retroceso y avance.
+**Provide constructive feedback:** La respuesta identifica correctamente el uso de dos pilas, pero carece de una explicación detallada del algoritmo. Se necesita describir cómo se utilizarían estas pilas para manejar el historial de navegación, incluyendo las operaciones de avanzar y retroceder.
+(Score: 0)
+
+**Q:** ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Answer:** El acceso es O(1) porque toma un tiempo constante y no depende de la cantidad de datos.
+**Rephrase for clarity:** La respuesta del estudiante indica que el acceso a un elemento específico en un arreglo es O(1) porque el tiempo de acceso es constante y no varía con el tamaño del arreglo.
+**Knowledge:** La respuesta es parcialmente correcta, pero falta una explicación más profunda de por qué el tiempo de acceso es constante, por ejemplo, debido a la indexación directa.
+**Evaluate accuracy and relevance:** La respuesta es relevante pero incompleta. No explica completamente la razón detrás del tiempo constante de acceso.
+**Provide constructive feedback:** La información dada en la respuesta es correcta en cuanto al resultado (O(1)) pero carece de una explicación más profunda, y lo que se pide explícitamente es esta explicación. Por ende, esta respuesta se considerará errónea. Sería útil mencionar que el acceso directo mediante índices en el arreglo permite esta constante.
+(Score: 0)
+
+**Q:** ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Answer:** Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Rephrase for clarity:** La respuesta del estudiante sugiere que hay situaciones donde los arreglos son preferibles a las listas enlazadas, pero no proporciona detalles específicos ni menciona complejidades temporales.
+**Knowledge:** La respuesta es extremadamente vaga y no aborda las complejidades temporales ni proporciona ejemplos concretos de cuándo usar arreglos sobre listas enlazadas.
+**Evaluate accuracy and relevance:** La respuesta no es relevante ni precisa. No proporciona información útil sobre cuándo usar arreglos en lugar de listas enlazadas y no menciona las complejidades temporales como se solicitó.
+**Provide constructive feedback:** La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad. Se esperaba una explicación de las situaciones específicas donde los arreglos son preferibles, haciendo referencia a las complejidades temporales de las operaciones en ambas estructuras de datos.
+(Score: 0)
+
+**Q:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Rephrase for clarity:** La respuesta del estudiante indica correctamente que la complejidad temporal del peor caso para una búsqueda en una tabla hash es O(n), explicando que esto ocurre cuando hay colisiones máximas y todos los datos están en una misma posición.
+**Knowledge:** El estudiante ha demostrado una comprensión precisa de la complejidad del peor caso en tablas hash y ha explicado correctamente las condiciones que llevan a este escenario.
+**Evaluate accuracy and relevance:** La respuesta es precisa y altamente relevante. Proporciona la complejidad correcta y describe detalladamente las condiciones del peor caso.
+**Provide constructive feedback:** Excelente respuesta. Has identificado correctamente la complejidad del peor caso y has explicado de manera clara y concisa las condiciones que llevan a este escenario en una tabla hash. Tu comprensión del tema es sobresaliente.
+(Score: 10)
+```
+
+---
+

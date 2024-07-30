@@ -1,0 +1,27 @@
+## Examples
+
+```
+**Knowledge:** Los arreglos y las listas enlazadas tienen diferentes complejidades temporales para operaciones comunes como acceso, inserción y eliminación. La elección entre ellos depende de los requisitos específicos de la aplicación.
+**Question:** ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer:** Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Feedback and Score (in a Python dictionary):**
+{
+    "analysis": "La respuesta del estudiante es extremadamente vaga y no proporciona ninguna información específica sobre cuándo usar arreglos o listas enlazadas. No se mencionan las complejidades temporales ni se dan ejemplos concretos de situaciones donde una estructura sería preferible a la otra.",
+    "feedback": "La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad. Se esperaba una explicación de las situaciones específicas donde los arreglos son preferibles, haciendo referencia a las complejidades temporales de las operaciones en ambas estructuras de datos.",
+    ...
+    "score": 0
+}
+---
+**Knowledge:** En una tabla hash, el peor caso para la búsqueda ocurre cuando todos los elementos colisionan en la misma posición, convirtiendo la tabla hash efectivamente en una lista enlazada.
+**Question:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Student's Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Feedback and Score (in a Python dictionary):**
+{
+    "analysis": "La respuesta del estudiante es precisa y demuestra una comprensión sólida de la complejidad del peor caso en tablas hash. Correctamente identifica la complejidad como O(n) y describe acertadamente las condiciones que llevan a este escenario, mencionando las colisiones y la disposición de los datos en el arreglo.",
+    "feedback": "Excelente respuesta. Has identificado correctamente la complejidad del peor caso y has explicado de manera clara y concisa las condiciones que llevan a este escenario en una tabla hash. Tu comprensión del tema es sobresaliente.",
+    ...
+    "score": 10
+```
+
+---
+

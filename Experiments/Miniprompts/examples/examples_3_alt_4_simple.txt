@@ -1,0 +1,26 @@
+## Examples
+
+```
+**Q:** ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Answer:** Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.
+**Feedback:** La respuesta identifica correctamente el uso de dos pilas, pero carece de una explicación detallada del algoritmo. Se necesita describir cómo se utilizarían estas pilas para manejar el historial de navegación, incluyendo las operaciones de avanzar y retroceder.
+(Score: 0)
+
+**Q:** ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Answer:** El acceso es O(1) porque toma un tiempo constante y no depende de la cantidad de datos.
+**Feedback:** La información dada en la respuesta es correcta en cuanto al resultado (O(1)) pero carece de una explicación más profunda, y lo que se pide explícitamente es esta explicación. Por ende, esta respuesta se considerará errónea. Sería útil mencionar que el acceso directo mediante índices en el arreglo permite esta constante.
+(Score: 0)
+
+**Q:** ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Answer:** Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Feedback:** La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad. Se esperaba una explicación de las situaciones específicas donde los arreglos son preferibles, haciendo referencia a las complejidades temporales de las operaciones en ambas estructuras de datos.
+(Score: 0)
+
+**Q:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Feedback:** Excelente respuesta. Has identificado correctamente la complejidad del peor caso y has explicado de manera clara y concisa las condiciones que llevan a este escenario en una tabla hash. Tu comprensión del tema es sobresaliente.
+(Score: 10)
+```
+
+---
+

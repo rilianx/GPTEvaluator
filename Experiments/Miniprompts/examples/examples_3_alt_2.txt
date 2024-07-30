@@ -1,0 +1,22 @@
+## Examples
+
+```
+**Q:** ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Answer:** Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Rephrase for clarity:** La respuesta del estudiante sugiere que hay situaciones donde los arreglos son preferibles a las listas enlazadas, pero no proporciona detalles específicos ni menciona complejidades temporales.
+**Knowledge:** La respuesta es extremadamente vaga y no aborda las complejidades temporales ni proporciona ejemplos concretos de cuándo usar arreglos sobre listas enlazadas.
+**Evaluate accuracy and relevance:** La respuesta no es relevante ni precisa. No proporciona información útil sobre cuándo usar arreglos en lugar de listas enlazadas y no menciona las complejidades temporales como se solicitó.
+**Provide constructive feedback:** La respuesta del estudiante es incorrecta ya que no proporciona información nueva y simplemente reformula la pregunta sin agregar profundidad o claridad. Se esperaba una explicación de las situaciones específicas donde los arreglos son preferibles, haciendo referencia a las complejidades temporales de las operaciones en ambas estructuras de datos.
+(Score: 0)
+
+**Q:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Rephrase for clarity:** La respuesta del estudiante indica correctamente que la complejidad temporal del peor caso para una búsqueda en una tabla hash es O(n), explicando que esto ocurre cuando hay colisiones máximas y todos los datos están en una misma posición.
+**Knowledge:** El estudiante ha demostrado una comprensión precisa de la complejidad del peor caso en tablas hash y ha explicado correctamente las condiciones que llevan a este escenario.
+**Evaluate accuracy and relevance:** La respuesta es precisa y altamente relevante. Proporciona la complejidad correcta y describe detalladamente las condiciones del peor caso.
+**Provide constructive feedback:** Excelente respuesta. Has identificado correctamente la complejidad del peor caso y has explicado de manera clara y concisa las condiciones que llevan a este escenario en una tabla hash. Tu comprensión del tema es sobresaliente.
+(Score: 10)
+```
+
+---
+

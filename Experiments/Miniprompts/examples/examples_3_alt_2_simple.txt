@@ -1,0 +1,15 @@
+## Examples:
+
+```
+**Question:** ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Insatisfactory Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Feedback:** Tu respuesta muestra que reconoces que hay diferencias entre arreglos y listas enlazadas, lo cual es un buen punto de partida. Sin embargo, para mejorar, es importante que profundices en las situaciones específicas donde cada estructura es más eficiente. Intenta mencionar las complejidades temporales de operaciones comunes como acceso, inserción y eliminación en ambas estructuras. Por ejemplo, podrías explicar que los arreglos son preferibles cuando se requiere acceso aleatorio frecuente (O(1)) o cuando el tamaño de los datos es fijo. No dudes en proporcionar ejemplos concretos para ilustrar tus puntos.
+(Score: 0)
+
+**Question:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Excelent Answer**: La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Feedback:** ¡Excelente respuesta! Has demostrado una comprensión sólida de las tablas hash y sus complejidades. Tu explicación de la complejidad del peor caso O(n) es precisa, y has descrito correctamente las condiciones que llevan a este escenario.
+(Score: 10)
+```
+
+---
