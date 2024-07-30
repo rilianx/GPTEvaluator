@@ -1,17 +1,18 @@
 
-**Examples:**
-Q: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
-Answer: La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
-Rephrase for clarity: La respuesta del estudiante indica correctamente que la complejidad temporal del peor caso para una búsqueda en una tabla hash es O(n), debido a las colisiones que ocurren cuando todos los datos están en el mismo grupo.
-Compare with provided context: El estudiante ha mencionado correctamente la complejidad temporal del peor caso y ha descrito una situación típica de colisión en una tabla hash. Esto se alinea bien con el contexto proporcionado.
-Evaluate accuracy and relevance: La respuesta es precisa y relevante ya que proporciona la complejidad correcta y describe la condición que lleva al peor caso.
-Provide constructive feedback: Respuesta excelente. Has identificado correctamente la complejidad del peor caso y explicado la causa de las colisiones en una tabla hash. Muy bien hecho. 
+## Examples
+
+**Q:** ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Answer:** La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, está búsqueda hace colisión con todos los datos que estaban almacenados.
+**Rephrase for clarity:** La respuesta del estudiante indica correctamente que la complejidad temporal del peor caso para una búsqueda en una tabla hash es O(n), debido a las colisiones que ocurren cuando todos los datos están en el mismo grupo.
+**Knowledge:** El estudiante ha mencionado correctamente la complejidad temporal del peor caso y ha descrito una situación típica de colisión en una tabla hash. Esto se alinea bien con el contexto proporcionado.
+**Evaluate accuracy and relevance:** La respuesta es precisa y relevante ya que proporciona la complejidad correcta y describe la condición que lleva al peor caso.
+**Provide constructive feedback:** Respuesta excelente. Has identificado correctamente la complejidad del peor caso y explicado la causa de las colisiones en una tabla hash. Muy bien hecho. 
 (Score: 10)
 
-Q: ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
-Answer: El acceso es O(1) porque toma un tiempo constante y no depende de la cantidad de datos.
-Rephrase for clarity: La respuesta del estudiante indica que el acceso a un elemento específico en un arreglo es O(1) porque el tiempo de acceso es constante y no varía con el tamaño del arreglo.
-Compare with provided context: La respuesta es parcialmente correcta, pero falta una explicación más profunda de por qué el tiempo de acceso es constante, por ejemplo, debido a la indexación directa.
-Evaluate accuracy and relevance: La respuesta es relevante pero incompleta. No explica completamente la razón detrás del tiempo constante de acceso.
-Provide constructive feedback: La información dada en la respuesta es correcta en cuanto al resultado (O(1)) pero carece de una explicación más profunda, y lo que se pide explícitamente es esta explicación. Por ende, esta respuesta se considerará errónea. Sería útil mencionar que el acceso directo mediante índices en el arreglo permite esta constante.
+**Q:** ¿Por qué el acceso a un elemento específico en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Answer:** El acceso es O(1) porque toma un tiempo constante y no depende de la cantidad de datos.
+**Rephrase for clarity:** La respuesta del estudiante indica que el acceso a un elemento específico en un arreglo es O(1) porque el tiempo de acceso es constante y no varía con el tamaño del arreglo.
+**Knowledge:** La respuesta es parcialmente correcta, pero falta una explicación más profunda de por qué el tiempo de acceso es constante, por ejemplo, debido a la indexación directa.
+**Evaluate accuracy and relevance:** La respuesta es relevante pero incompleta. No explica completamente la razón detrás del tiempo constante de acceso.
+**Provide constructive feedback:** La información dada en la respuesta es correcta en cuanto al resultado (O(1)) pero carece de una explicación más profunda, y lo que se pide explícitamente es esta explicación. Por ende, esta respuesta se considerará errónea. Sería útil mencionar que el acceso directo mediante índices en el arreglo permite esta constante.
 (Score: 0)
