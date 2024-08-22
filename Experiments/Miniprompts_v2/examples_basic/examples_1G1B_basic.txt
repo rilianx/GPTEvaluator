@@ -1,0 +1,8 @@
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Se recomienta utilizar arreglos cuando se quiere acceder a elementos en posiciones específicas. Acceder a posiciones en un arreglo tiene complejidad temporal O(1), mientras que en una lista enlazada la complejidad es O(n).
+**Score**: 10
+
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Score**: 0

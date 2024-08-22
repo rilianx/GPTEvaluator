@@ -1,0 +1,3 @@
+$correctness
+(score)
+Assign a score between 0 and 10 based on the correctness of the student's answer.

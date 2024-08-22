@@ -1,0 +1,16 @@
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Se recomienta utilizar arreglos cuando se quiere acceder a elementos en posiciones específicas. Acceder a posiciones en un arreglo tiene complejidad temporal O(1), mientras que en una lista enlazada la complejidad es O(n).
+**Score**: 10
+
+**Question**: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Student's Answer**: La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, esta búsqueda hace colisión con todos los datos que estaban almacenados.
+**Score**: 10
+
+**Question**: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Student's Answer**: En una pila se almacenan las páginas visitadas (pila atrás) y la otra se mantiene vacía (pila adelante). Al volver hacia atrás, se saca una página de atrás y se coloca en la pila adelante. Al ir hacia adelante, se saca una página de adelante y se coloca en la pila atrás.
+**Score**: 10
+
+**Question**: ¿Por qué el acceso a una posición específica en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Student's Answer**: Para acceder a una posición k en un arreglo basta con acceder a la posición que se obtiene de sumar al puntero que apunta al primer elemento una cantidad de bytes igual a k*sizeof(elem). Sumar punteros y acceder a la posición es O(1).
+**Score**: 10

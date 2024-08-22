@@ -1,0 +1,7 @@
+#feedback
+(feedback)
+Provide feedback to the "Student's Answer".
+State whether the answer is good/excelent or poor/insatisfactory.
+If the answer is good/excelent, add a brief note on why their response was particularly effective.
+If the answer is poor/insatisfactory, provide specific suggestions on how to improve, ensuring the feedback is constructive.
+Within 150 words.

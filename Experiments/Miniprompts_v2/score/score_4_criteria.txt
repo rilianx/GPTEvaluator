@@ -1,0 +1,7 @@
+$correctness
+$completeness
+$relevance
+$clarity
+(score)
+Assign a score between 0 and 10 to different criteria based on the student's answer.
+Criteria are: correctness, completeness, relevance, clarity.

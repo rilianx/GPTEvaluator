@@ -1,0 +1,20 @@
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Se recomienta utilizar arreglos cuando se quiere acceder a elementos en posiciones específicas. Acceder a posiciones en un arreglo tiene complejidad temporal O(1), mientras que en una lista enlazada la complejidad es O(n).
+**Analysis**: The student explains that arrays are preferable when direct access to specific positions is needed. This is because accessing an element in an array is O(1), compared to O(n) in a linked list where access requires traversing the list. The student correctly identifies and elaborates on the complexities of accessing elements in both data structures, directly addressing the question. The response provides relevant and deep new information rather than merely restating the question.
+**Score**: 10
+
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Analysis**: The student indicates that arrays are preferable in some situations and linked lists in others but does not provide specific criteria or context. The response is vague and lacks detail on the complexity of operations in arrays versus linked lists. It fails to address the complexities associated with both data structures and their comparative use cases. This answer does not provide new information and only restates the question without a deeper explanation.
+**Score**: 0
+
+**Question**: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Student's Answer**: La complejidad del peor caso es ocurre cuando la tabla es inefectiva para realizar las operación de búsqueda.
+**Analysis**: The student mentions that the worst-case complexity occurs when the table is ineffective at performing searches but does not specify the exact complexity or conditions. The response is non-specific and does not explain why the worst-case complexity is what it is or under what conditions it occurs. It lacks technical details on hash collisions or data distribution. This answer does not provide relevant new information and only addresses the question in a very general manner.
+**Score**: 0
+
+**Question**: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Student's Answer**: Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.
+**Analysis**: The student states that two stacks are used to manage navigation but does not elaborate on how this is implemented or provide an algorithm. The response is vague and does not explain how the stacks are used or the detailed steps for navigating backward and forward. It does not address the specifics of the algorithm or operations involved. This answer does not offer new, detailed information and only briefly mentions the use of two stacks.
+**Score**: 0

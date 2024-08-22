@@ -1,0 +1,20 @@
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Se recomienta utilizar arreglos cuando se quiere acceder a elementos en posiciones específicas. Acceder a posiciones en un arreglo tiene complejidad temporal O(1), mientras que en una lista enlazada la complejidad es O(n).
+**Analysis**: The student explains that arrays are preferable when direct access to specific positions is needed. This is because accessing an element in an array is O(1), compared to O(n) in a linked list where access requires traversing the list. The student correctly identifies and elaborates on the complexities of accessing elements in both data structures, directly addressing the question. The response provides relevant and deep new information rather than merely restating the question.
+**Score**: 10
+
+**Question**: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Student's Answer**: La complejidad del peor caso es O(n). Esta puede ocurrir cuando todos los datos de la tabla se encuentran contiguos en el arreglo, y cuando se busca una clave, esta búsqueda hace colisión con todos los datos que estaban almacenados.
+**Analysis**: The student states that the worst-case complexity for search operations in a hash table is O(n). This situation occurs when all elements hash to the same index, resulting in a long chain of elements (all collisions). The response accurately describes the conditions leading to this worst-case scenario and explains why this results in O(n) complexity, adding depth to the initial question. It correctly addresses the question by providing detailed, relevant information rather than simply rephrasing the question.
+**Score**: 10
+
+**Question**: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Student's Answer**: En una pila se almacenan las páginas visitadas (pila atrás) y la otra se mantiene vacía (pila adelante). Al volver hacia atrás, se saca una página de atrás y se coloca en la pila adelante. Al ir hacia adelante, se saca una página de adelante y se coloca en la pila atrás.
+**Analysis:** The student describes using one stack to keep track of visited pages (backward stack) and another stack for pages to go forward (forward stack). Pages are moved between stacks when navigating backward or forward. This explanation includes a clear algorithm for managing browser history, providing a functional method for implementing the navigation history. The answer provides relevant new information by explaining the algorithm thoroughly, not merely restating the question.
+**Score**: 10
+
+**Question**: ¿Por qué el acceso a una posición específica en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Student's Answer**: Para acceder a una posición k en un arreglo basta con acceder a la posición que se obtiene de sumar al puntero que apunta al primer elemento una cantidad de bytes igual a k*sizeof(elem). Sumar punteros y acceder a la posición es O(1).
+**Analysis:** The student explains that accessing an element at position k in an array involves calculating an address by adding an offset to the base address. This detailed explanation correctly addresses why array access is O(1), providing technical insight into memory addressing and pointer arithmetic. The response offers new, relevant information about the mechanics of array access, giving a deep understanding rather than just rephrasing the question.
+**Score**: 10

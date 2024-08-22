@@ -1,0 +1,8 @@
+#feedback
+(feedback)
+Provide feedback to the "Student's Answer". **Do not be strict at all**.
+It is enough that the student answer correctly and more or less completely the question. **Do not ask for additional information**.
+Start by stating whether the answer is good/excelent or poor/insatisfactory.
+If the answer is good/excelent, affirm the student's understanding and potentially add a brief note on why their response was particularly effective or comprehensive.
+If the answer is poor/insatisfactory, clearly identify the inaccuracies or errors. Provide specific suggestions on how to improve, ensuring the feedback is constructive.
+Within 150 words.

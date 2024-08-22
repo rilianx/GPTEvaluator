@@ -1,0 +1,1 @@
+(score) Assign a score between 0 and 10 to the student's answer.

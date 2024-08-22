@@ -1,0 +1,10 @@
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Se recomienta utilizar arreglos cuando se quiere acceder a elementos en posiciones específicas. Acceder a posiciones en un arreglo tiene complejidad temporal O(1), mientras que en una lista enlazada la complejidad es O(n).
+**Analysis**: The student explains that arrays are preferable when direct access to specific positions is needed. This is because accessing an element in an array is O(1), compared to O(n) in a linked list where access requires traversing the list. The student correctly identifies and elaborates on the complexities of accessing elements in both data structures, directly addressing the question. The response provides relevant and deep new information rather than merely restating the question.
+**Score**: 10
+
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Analysis**: The student indicates that arrays are preferable in some situations and linked lists in others but does not provide specific criteria or context. The response is vague and lacks detail on the complexity of operations in arrays versus linked lists. It fails to address the complexities associated with both data structures and their comparative use cases. This answer does not provide new information and only restates the question without a deeper explanation.
+**Score**: 0
