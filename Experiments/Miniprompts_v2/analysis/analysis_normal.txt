@@ -3,4 +3,4 @@
 Analyse the "Student's Answer".
 Paraphrase the answer and comment each sentence.
 Focus on the alignment between the question asked and the answer provided.
-Do not evaluate, only analyse.
+In English.

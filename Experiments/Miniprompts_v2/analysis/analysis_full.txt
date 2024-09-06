@@ -5,4 +5,4 @@ Paraphrase the answer and comment each sentence.
 It rewrites the same information provided in the question? or It correctly answers the question providing relevant and deep new information?
 It is complete, that is, answers all the questions?
 Focus on the alignment between the question asked and the answer provided.
-Do not evaluate, only analyse.
+In English.
