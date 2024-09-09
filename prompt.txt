@@ -1,4 +1,5 @@
-**Knowledge (not visible to students):** {knowledge}
+**Knowledge:** {knowledge}
+
 **Question:** {question}
 **Student's Answer:** {answer}
 
