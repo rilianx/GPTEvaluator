@@ -1,6 +1,6 @@
 {
     "model": "gpt-4o-mini",
-    "temperature": 0.2,
+    "temperature": 0.05,
     "expected_output": [
         "analysis",
         "feedback"
