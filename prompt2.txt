@@ -1,0 +1,10 @@
+**Knowledge:** {knowledge}
+
+**Question:** {question}
+**Student's Answer:** {answer}
+
+Provide feedback and assign a score between 0 and 10 to the "Student's Answer".
+Within 150 words. In Spanish.
+
+I expect a dict in python as answer: {{"score": score, "feedback": "feedback"}}
+Python dict:
