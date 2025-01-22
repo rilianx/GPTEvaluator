@@ -1,10 +1,34 @@
-**Knowledge:** {knowledge}
+### Knowledge
+{Context}
 
-**Question:** {question}
-**Student's Answer:** {answer}
+### Examples
+**Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
+**Student's Answer**: Un arreglo es recomendable en determinadas situaciones, mientras que la lista enlazada en otras.
+**Score**: 0
 
-Provide feedback and assign a score between 0 and 10 to the "Student's Answer".
-Within 150 words. In Spanish.
+**Question**: ¿Cuál es la complejidad temporal del peor caso para la operación de búsqueda en una tabla hash y por qué? Describe las condiciones que debe tener la tabla para encontrarse en este peor caso.
+**Student's Answer**: La complejidad del peor caso es ocurre cuando la tabla es inefectiva para realizar las operación de búsqueda.
+**Score**: 0
 
-I expect a dict in python as answer: {{"score": score, "feedback": "feedback"}}
+**Question**: ¿Cómo se podría implementar un historial de navegación web usando dos pilas? El historial debe permitir ir hacia atrás y adelante con las páginas previamente visitadas. Describa un algoritmo.
+**Student's Answer**: Usamos dos pilas para ir hacia adelante y hacia atrás en el historial.
+**Score**: 0
+
+**Question**: ¿Por qué el acceso a una posición específica en un arreglo es O(1), es decir, no depende de la cantidad de datos?
+**Student's Answer**: El acceso es O(1) por que toma un tiempo constante y no depende de la cantidad de datos.
+**Score**: 0
+
+### Q&A
+
+**Question:** {Question}
+
+**Student's Answer:** {Answer}
+
+### Instructions
+
+Assign a score between 0 and 10 to the student's answer.
+Write a feedback in Spanish encouraging tone to motivate further learning.
+
+I expect a dict in python as answer: {{"score": score, "feedback": "strengths/errors/reasoning/suggestions (Spanish)"}}
+
 Python dict:
