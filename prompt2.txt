@@ -1,5 +1,5 @@
 ### Knowledge
-{Context}
+{knowledge}
 
 ### Examples
 **Question**: ¿Cuando se recomienda utilizar arreglos en vez de listas enlazadas? Haga referencia a complejidades temporales en su explicación.
@@ -20,9 +20,9 @@
 
 ### Q&A
 
-**Question:** {Question}
+**Question:** {question}
 
-**Student's Answer:** {Answer}
+**Student's Answer:** {answer}
 
 ### Instructions
 
