@@ -3,5 +3,5 @@
     "temperature": 0.1,
     "significant_digits": 1,
     "adjust_score_function": "0.0 if gpt_score <= 2 else 1.0 if gpt_score >= 9 else (gpt_score - 2) / (9 - 2)",
-    "encripted_token": "024413143e42247a1c0707187f520d31294105212342350f0305352475315679665f63571416101c063c204130193824"
+    "encripted_token": "J778HYn_HdBh8vchhEzV9c8ZSRovAJcsnMHyw-sj6kQATAf__nDMDcanOKWEWtUP_50uq8omVBT3BlbkFJNShtb3UJIvLWP2bLjhabur8PXfL36zzwCeV182M-KesMLJKOq6BER6eZdof898zsFuuFj-ewwA"
 }
