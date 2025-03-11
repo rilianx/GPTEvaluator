@@ -3,5 +3,5 @@
     "temperature": 0.1,
     "significant_digits": 1,
     "adjust_score_function": "0.0 if gpt_score <= 2 else 1.0 if gpt_score >= 9 else (gpt_score - 2) / (9 - 2)"
-    "token_pass": "asdkqwdk34eca_h"
+    "encripted_token": "021c4e125d031b646e797a1c0200732d004a313945102737522c1f0c5f19797531537e0d0d3110140614090028305820166208"
 }
