@@ -2,6 +2,6 @@
     "model": "gpt-4o-mini",
     "temperature": 0.1,
     "significant_digits": 1,
-    "adjust_score_function": "0.0 if gpt_score <= 2 else 1.0 if gpt_score >= 9 else (gpt_score - 2) / (9 - 2)",
+    "adjust_score_function": "0.0 if gpt_score <= 2 else 1.0 if gpt_score >= 8 else (gpt_score - 2) / (8 - 2)",
     "encripted_token": "0b2800285f17046e0a577c30715246323542532527173f390231211d5a267a59115f6b6e1727040344251e00285825293e0566567f277f407536563f0706054530272226363e783d746d0b057158060a352e03321b1e3c2e25162b0513014038410359020e3a202b3e03140a3603452f6368067818464450233e095023451a232b07181425630901530f6c5271523629051b40073052020f313e611e"
 }
