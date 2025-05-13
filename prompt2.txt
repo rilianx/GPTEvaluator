@@ -18,6 +18,10 @@
 **Respuesta del Estudiante**: Utilizamos una pila "atrás" para almacenar las páginas ya visitadas. Si queremos volver atrás, sacamos un elemento de la pila y lo colocamos en una pila "adelante". Si queremos avanzar, sacamos un elemento de la pila "adelante" y lo colocamos en la pila "atrás.
 **Score**: 10
 
+**Question**: Considerando que cada nodo del árbol binario almacena su altura, ¿cómo podemos verificar si el árbol se encuentra balanceado? Describa un algoritmo simple.
+**Respuesta del Estudiante**: Recorremos los nodos del árbol (con un algoritmo de búsqueda en profundidad o anchura), y en cada nodo restamos la altura del hijo izquierdo con el hijo derecho. Si en ninguno de ellos la diferencia es mayor a 1, el árbol está balanceado.
+**Score**: 10
+
 ### Q&A
 
 **Pregunta:** {question}
