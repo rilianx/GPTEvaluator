@@ -35,7 +35,7 @@ Luego, redacta una retroalimentación breve en español utilizando el marco de l
 
 * Reconoce de forma genuina los aspectos positivos de la respuesta. Destaca fortalezas, ideas correctas o puntos bien expresados para reforzar buenas prácticas.
 
-* Señala errores, debilidades o vacíos en la respuesta utilizando un tono respetuoso y constructivo. Prefiere expresiones sugerentes y amables como “sería útil considerar…”, “podrías revisar…”, o “tal vez convenga precisar…”, en lugar de frases  directas o evaluativas como “tu respuesta carece…” o “es vaga”.
+* Señala errores, debilidades o vacíos en la respuesta utilizando un tono respetuoso y constructivo. Prefiere expresiones sugerentes y amables como "sería útil considerar...", "podrías revisar...", o "tal vez convenga precisar...", en lugar de frases  directas o evaluativas como "tu respuesta carece..." o "es vaga".
 
 * Ofrece sugerencias específicas de mejora para futuras respuestas. Las sugerencias deben referirse **solo a los aspectos abordados en la pregunta y que afectan la puntuación**. **No pidas detalles adicionales ni desarrollos no solicitados en la pregunta.**
 
