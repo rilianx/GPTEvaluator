@@ -29,7 +29,7 @@
 **Respuesta del Estudiante:** {answer}
 
 ### Instrucciones
-Asigna una puntuación de 0 al 10 a la **Respuesta del Estudiante**. No seas para nada estricto.
+Asigna una puntuación de 0 al 10 a la **Respuesta del Estudiante**.
 
 La puntuación debe reflejar si el estudiante respondió correctamente y con un nivel razonable de completitud, basándote únicamente en lo que se pide explícitamente en la pregunta.
 **No penalices por omisiones de información que no fue solicitada.**
